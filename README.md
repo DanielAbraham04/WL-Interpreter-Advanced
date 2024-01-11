@@ -24,6 +24,6 @@ COPY list1 list2 - The content of list2 is deep copied into list1.
 CHS x - This statement changes the sign of the integer value bound to x.   
 ADD x y - This statement adds the integers bound to the two arguments and stores the result in x.   
 IF x i - If x is an empty list or the number zero, jump to instruction at line i   
-GOTO i - This is the unconditional jump. Transfer control to the instruction at line i.
+GOTO i - This is the unconditional jump. Transfer control to the instruction at line i.  
 HLT - Terminates program execution.
 
